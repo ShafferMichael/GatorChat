@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { auths } from "./firebase-config";
+import { auths } from "./components/firebase-config";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 function App() {
