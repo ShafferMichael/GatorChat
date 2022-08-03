@@ -2,23 +2,20 @@ import React from "react";
 import "./App.css";
 import { auths } from "./components/firebase-config";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from "./Home";
+import Chatroom from "./Chatroom";
+
 
 function App() {
-  const signInWithGoogle = () => {
-    const provider = new GoogleAuthProvider();
-    signInWithPopup(auths, provider)
-      .then((re) => {
-        console.log(re);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
 
   return (
-    <div className="App">
-      <button onClick={signInWithGoogle}>Click Me</button>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element ={<Home />}  />
+        <Route path="/chatroom" element ={<Chatroom />}  /> 
+      </Routes>
+    </Router>
   );
 }
 export default App;
