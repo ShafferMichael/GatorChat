@@ -1,12 +1,18 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
-import Header from './components/Header/Header';
+import Header from '../Header/Header';
 
 function Photography() {
     let navigate = useNavigate();
   return (
-    <div>
+    <div className='Chat'>
       <Header />
+      <button
+        onClick ={() => {
+          navigate("/Chatroom");
+          }}> Back to chat select
+      </button>
+      <hr />
       Photography
     </div>
   )

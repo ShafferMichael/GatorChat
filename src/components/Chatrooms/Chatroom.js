@@ -1,15 +1,16 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Header from "./components/Header/Header";
+import Header from "../Header/Header";
+import "./Chat.css"
 
 function Chatroom(){
 
     let navigate = useNavigate();
 
     return (
-        <div>
+        <div className="Chat">
             <Header />
-            <button 
+            <button
               onClick ={() => {
                 navigate("/");
                 }}> Go back to Home 

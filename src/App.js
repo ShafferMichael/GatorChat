@@ -1,16 +1,14 @@
 import React from "react";
 import "./App.css";
-import { auths } from "./components/firebase-config";
-import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from "./Home";
-import Chatroom from "./Chatroom";
-import General from "./General";
-import Soccer from "./Soccer";
-import Chemistry from "./Chemistry";
-import VideoGames from "./VideoGames";
-import Photography from "./Photography";
-import Hiking from "./Hiking";
+import Chatroom from "./components/Chatrooms/Chatroom";
+import General from "./components/Chatrooms/General";
+import Soccer from "./components/Chatrooms/Soccer";
+import Chemistry from "./components/Chatrooms/Chemistry";
+import VideoGames from "./components/Chatrooms/VideoGames";
+import Photography from "./components/Chatrooms/Photography";
+import Hiking from "./components/Chatrooms/Hiking";
 
 function App() {
 
