@@ -1,10 +1,14 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
+import Header from "./components/Header/Header";
 
 function Hiking() {
     let navigate = useNavigate();
   return (
-    <div>Hiking</div>
+    <div>
+      <Header />
+      Hiking
+    </div>
   )
 }
 

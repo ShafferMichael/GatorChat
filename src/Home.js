@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth"; 
 import { auths } from "./components/firebase-config";
+import Header from "./components/Header/Header";
 
 function Home() {
     let navigate = useNavigate();
@@ -19,6 +20,7 @@ function Home() {
 
   return (
     <div className="App">
+      <Header />
       <button 
       onClick={signInWithGoogle}>Sign In
       </button>

@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Header from "./components/Header/Header";
 
 function Chatroom(){
 
@@ -7,6 +8,7 @@ function Chatroom(){
 
     return (
         <div>
+            <Header />
             <button 
               onClick ={() => {
                 navigate("/");

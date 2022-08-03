@@ -1,10 +1,14 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
+import Header from "./components/Header/Header";
 
 function Chemistry() {
     let navigate = useNavigate();
   return (
-    <div>Chemistry</div>
+    <div>
+      <Header />
+      Chemistry
+    </div>
   )
 }
 
