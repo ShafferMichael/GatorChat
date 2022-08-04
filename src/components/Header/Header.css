@@ -1,9 +1,14 @@
-.header {
-    padding: 25px 0;
-    text-align: center;
-    background: rgb(0, 153, 255);
-  }
-  .header img {
-    width: 500px;
-    height: 100px;
-  }
+.navbar {
+  border-bottom: 2px solid black;
+  margin-bottom: 2%;
+}
+
+.nav-item {
+  margin-left:5%;
+  margin-right:5%;
+  max-width: 100px;
+}
+
+.nav-link {
+  color: #d97021;
+}

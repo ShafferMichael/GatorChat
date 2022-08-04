@@ -34,7 +34,7 @@ function Chatroom(){
                     </div>
                     <div class="col-md-4">
                     <div class="card">
-                            <img class="card-img-top chat-img" src="soccer_chat.jpg" ></img>
+                            <img class="card-img-top chat-img" src="soccer_chat.png" ></img>
                             <div class="card-body">
                                 <h5>Soccer Chat</h5>
                                 <p>A room where soccer fans to discuss the sport and find others to play with.</p>
@@ -85,7 +85,6 @@ function Chatroom(){
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     )

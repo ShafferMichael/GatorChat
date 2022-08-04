@@ -40,8 +40,7 @@ function Home() {
               </button>
             </div>
           
-          <p class="fs-6
-          ">Don't have an account? <a href="#!" onClick={signInWithGoogle} class="link-info">Register here</a></p>
+          <p class="register-link fs-6">Don't have an account? <a href="#!" onClick={signInWithGoogle} class="link-info">Register here</a></p>
           </form>
         </div>
 
