@@ -1,3 +1,34 @@
+body {
+  background-color: #13336b;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+#login {
+  border-color: #000000;
+  border-width: 5px;
+}
+
+.form-group {
+  padding: 5px;
+}
+.button {
+  padding: 5%;
+}
+.btn-primary {
+  padding: 5px;
+  margin: 5px;
+  background-color: #d97021;
+}
+
+.link-info {
+  color: orange;
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
 }
