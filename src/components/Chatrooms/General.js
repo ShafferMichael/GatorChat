@@ -8,13 +8,13 @@ function General() {
   return (
     <div className='Chat'>
       <Header />
-      <button
+      <button type="button" class="btn btn-primary"
         onClick ={() => {
           navigate("/Chatroom");
           }}> Back to chat select
       </button>
       <hr/>
-      General
+      <p class="title">General</p>
       <hr/>
       <ChatEngine>
         height = "100vh"

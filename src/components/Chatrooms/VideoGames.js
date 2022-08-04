@@ -8,13 +8,13 @@ function VideoGames() {
   return (
     <div className='Chat'>
       <Header />
-      <button
+      <button type="button" class="btn btn-primary"
         onClick ={() => {
           navigate("/Chatroom");
           }}> Back to chat select
       </button>
       <hr />
-      VideoGames
+      <p class="title">Video Games</p>
       <hr/>
       <ChatEngine>
         height = "100vh"

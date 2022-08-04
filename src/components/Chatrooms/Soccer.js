@@ -8,13 +8,13 @@ function Soccer() {
   return (
     <div className='Chat'>
       <Header />
-      <button
+      <button type="button" class="btn btn-primary"
         onClick ={() => {
           navigate("/Chatroom");
           }}> Back to chat select
       </button>
       <hr />
-      Soccer
+      <p class="title">Soccer</p>
       <hr/>
       <ChatEngine>
         height = "100vh"

@@ -8,13 +8,13 @@ function Hiking() {
   return (
     <div className='Chat'>
       <Header />
-      <button
+      <button type="button" class="btn btn-primary"
         onClick ={() => {
           navigate("/Chatroom");
           }}> Back to chat select
       </button>
       <hr/>
-      Hiking
+      <p class="title">Hiking</p>
       <hr/>
       <ChatEngine>
         height = "100vh"

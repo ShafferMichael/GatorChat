@@ -12,3 +12,13 @@
 .nav-link {
   color: #d97021;
 }
+
+.btn-primary {
+  padding: 5px;
+  margin: 5px;
+  background-color: #d97021;
+}
+
+p.title {
+  color: #d97021;
+}
